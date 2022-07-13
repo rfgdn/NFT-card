@@ -1,8 +1,8 @@
-body{
+body {
     background-color: #0c1a2c;
 }
 
-.bloco-maior{
+.bloco-maior {
     background-color: #0c192c;
     width: 378px;
     height: 550px;
@@ -13,7 +13,7 @@ body{
 
 }
 
-.bloco-medio{
+.bloco-medio {
     background-color: #0d1629;
     width: 300px;
     height: 450px;
@@ -27,10 +27,10 @@ body{
     width: 333px;
     height: -1%;
     display: relative;
-    
+
 }
 
-.bloco-menor{
+.bloco-menor {
     background-color: #14263f;
     width: 300px;
     height: 450px;
@@ -44,17 +44,104 @@ body{
     width: 304px;
     height: 449px;
     display: block;
-    
+
 }
-.titulo-bloco-medio{
+
+.titulo-bloco-medio {
     font-family: 'Outfit', sans-serif;
     font-size: 18px;
     color: #dce7eb;
+    margin-top: 85%;
+    margin-left: 6%;
 
+    display: inline-block;
+}
+
+.descricao-bloco-medio {
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    color: #dce7eb;
+    margin-top: 9%;
+    margin-left: 6%;
+    display: inline-block;
+}
+
+.rodape-bloco-medio1 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    color: #2afcf8;
+    margin-top: -63%;
+    margin-left: 14%;
+    display: block;
+
+}
+
+.icone1 {
+    width: 10px;
+    margin-left: 8%;
+    margin-top: -5%;
+    size: 5px;
     display: block;
 }
 
-.bloco-foto{
+.rodape-bloco-medio2 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    color: #8aa5d1;
+    margin-top: -5%;
+    margin-left: 69%;
+    display: block;
+
+}
+
+.icone2 {
+    width: 12px;
+    margin-left: 64%;
+    margin-top: -4%;
+    size: 5px;
+    display: block;
+}
+
+.bloco-mini-foto {
+    background-color: #faefdc;
+    width: 35px;
+    height: 33px;
+    margin: 55%;
+    margin-top: 1%;
+    margin-bottom: 37%;
+    margin-left: 7%;
+    border-radius: 40px;
+    display: inline-block;
+
+}
+
+.mini-foto {
+    width: 31px;
+    height: 31px;
+    margin: 46%;
+    margin-top: 5%;
+    margin-bottom: 38%;
+    margin-left: 6%;
+    border-radius: 6px;
+    display: inline-block;
+
+}
+
+.nome-rodape {
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    color: #92a9c7;
+    margin-left: 23%;
+    margin-top: 13%;
+
+}
+
+hr {
+    margin-top: 20%;
+
+}
+
+.bloco-foto {
     background-color: blue;
     width: 271px;
     height: 220px;
@@ -64,9 +151,10 @@ body{
     margin-left: 33%;
     border-radius: 8px;
     display: relative;
-    
+
 }
-.foto{
+
+.foto {
     width: 271px;
     height: 220px;
     margin: 55%;
